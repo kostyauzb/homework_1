@@ -1,0 +1,66 @@
+.about {
+  width: 100%;
+  margin-top: 150px;
+  text-align: center;
+}
+
+.about h1 {
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 57.98px;
+  color: #211f54;
+  text-align: center;
+}
+
+.about_text {
+  max-width: 648px;
+  font-family: Roboto;
+  font-size: 21px;
+  font-weight: 400;
+  margin: auto;
+  color: #6e7191;
+  line-height: 30.01px;
+  margin-top: 21px;
+}
+
+.about_cards {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  gap: 42px;
+  margin-top: 64px;
+}
+
+.about_card {
+  width: 374px;
+  height: auto;
+  text-align: center;
+}
+
+.about_card h2 {
+  font-family: Roboto;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36.01px;
+  color: #211f54;
+  margin-top: 39px;
+}
+
+.about_card p {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30.01px;
+  color: #6e7191;
+  margin-top: 16px;
+}
+
+.about_links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 57px;
+  gap: 28px;
+}
