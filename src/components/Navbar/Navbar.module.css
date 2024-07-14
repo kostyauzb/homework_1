@@ -52,3 +52,29 @@
 .open_btn:active {
   transform: translateY(1px);
 }
+
+@media screen and (max-width: 961px) {
+  .logo {
+    margin-right: 5px;
+  }
+  .navbar ul {
+    gap: 10px;
+  }
+  .navbar_links {
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 845px) {
+  .navbar ul li {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .navbar_links {
+    display: none;
+  }
+  .open_btn {
+    display: block;
+  }
+}

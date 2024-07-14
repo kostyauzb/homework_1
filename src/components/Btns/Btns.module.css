@@ -61,3 +61,10 @@
   color: #0075ff;
 }
 
+@media screen and (max-width: 430px) {
+  .btn-lg,
+  .btn-sm,
+  .btn-outline {
+    width: 250px;
+  }
+}

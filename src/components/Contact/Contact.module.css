@@ -183,3 +183,71 @@
   border: 2px solid #0075ff;
   color: #0075ff;
 }
+
+@media screen and (max-width: 1420px) {
+  .contact_info {
+    max-width: 300px;
+  }
+  .contact_info_texts h4 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1240px) {
+  .contact_form {
+    max-width: 50%;
+    height: auto;
+    gap: 20px;
+    padding: 40px;
+  }
+  .input_wrapper {
+    max-width: 100%;
+  }
+  .contact_form button {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .contact_body {
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+  }
+  .contact_info {
+    max-width: 100%;
+  }
+  .contact_form {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .contact {
+    padding: 60px 0px;
+    text-align: center;
+  }
+  .contact_info_phone {
+    justify-content: center;
+  }
+  .contact_info_link {
+    margin: auto;
+    margin-top: 40px;
+  }
+  .contact_info h1 {
+    font-size: 40px;
+  }
+  .contact_info p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .contact_form {
+    padding: 30px 20px;
+  }
+  .input_wrapper input {
+    height: 60px;
+  }
+}

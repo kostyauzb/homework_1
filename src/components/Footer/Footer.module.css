@@ -182,3 +182,28 @@
 .footer_foot p a {
   text-decoration: underline;
 }
+
+@media screen and (max-width: 1150px) {
+  .footer_head {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 200px;
+  }
+}
+
+@media screen and (max-width: 910px) {
+  .footer_head {
+    gap: 50px;
+  }
+  .footer_foot {
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .footer_head {
+    margin: 70px 0px;
+  }
+}

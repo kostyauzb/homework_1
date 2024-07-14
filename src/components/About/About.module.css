@@ -64,3 +64,26 @@
   margin-top: 57px;
   gap: 28px;
 }
+
+@media screen and (max-width: 1100px) {
+  .about_cards {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+}
+@media screen and (max-width: 425px) {
+  .about_links {
+    flex-direction: column;
+  }
+
+  .about_text {
+    font-size: 17px;
+  }
+
+  .about h1 {
+    font-size: 40px;
+  }
+  .about_card img {
+    width: 70%;
+  }
+}
